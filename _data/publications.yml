@@ -14,14 +14,14 @@ main:
     conference_short: AutoCon
     conference: Automation in Construction, 2023.
     pdf: https://www.sciencedirect.com/science/article/pii/S0926580523001619
-    image: ./assets/img/AcTEAbot.png
+    image: ./assets/img/AcTEA-bot.png
 
   - title: "TEA-bot: a thermography enabled autonomous robot for detecting thermal leaks of HVAC systems in ceilings"
     authors: <strong>Weijia Cai</strong>, Le Zhang, Lei Huang, Xinran (Celia) Yu, Zhengbo Zou* (*Corresponding author)
     conference_short: BuildSys
     conference: Proceedings of the 9th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation <strong>(BuildSys)</strong>, 2022.
     pdf: https://dl.acm.org/doi/abs/10.1145/3600100.3623739
-    image: ./assets/img/buildsys2022_slamwleakagesbb.png
+    image: ./assets/img/buildsys2022-slamwleakagesbb.png
     notes: Oral Presentation
 
   - title: "A Reinforcement Learning Based Approach for Conducting Multiple Tasks using Robots in Virtual Construction Environments"

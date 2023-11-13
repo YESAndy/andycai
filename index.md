@@ -6,6 +6,8 @@ layout: homepage
 
 I am a Ph.D. student from [ICon Lab](https://intelconstructlab.github.io/index.html) at [the University of British Columbia](https://www.ubc.ca/). I earned my Master's degree at Carnegie Mellon University. 
 
+My research mainly focuses on construction robotics. My current interest is trying to make use of Visual-Language-Model as prior information for robot navigation problems.
+
 ## Research Interests
 
 - **Construction Robotics:** 
@@ -13,10 +15,8 @@ I am a Ph.D. student from [ICon Lab](https://intelconstructlab.github.io/index.h
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Sep. 2023]** Our paper is accepted to BuildSys2023.
+- **[Sep. 2022]** Our paper is accepted to BuildSys2022.
 
 {% include_relative _includes/publications.md %}
 

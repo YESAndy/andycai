@@ -15,6 +15,7 @@ main:
     conference: Automation in Construction, 2023.
     pdf: https://www.sciencedirect.com/science/article/pii/S0926580523001619
     image: ./assets/img/AcTEA-bot.png
+    notes: Journal
 
   - title: "TEA-bot: a thermography enabled autonomous robot for detecting thermal leaks of HVAC systems in ceilings"
     authors: <strong>Weijia Cai</strong>, Le Zhang, Lei Huang, Xinran (Celia) Yu, Zhengbo Zou* (*Corresponding author)

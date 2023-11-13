@@ -4,12 +4,12 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a Ph.D. student from [ICon Lab](https://intelconstructlab.github.io/index.html) at [the University of British Columbia](https://www.ubc.ca/). I earned my Master's degree at Carnegie Mellon University. 
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Construction Robotics:** 
+- **Machine Learning:** 
 
 ## News
 

@@ -27,7 +27,7 @@ main:
   - title: "A Reinforcement Learning Based Approach for Conducting Multiple Tasks using Robots in Virtual Construction Environments"
     authors: <strong>Weijia Cai</strong>, Lei Huang, Zhengbo Zou* (*Corresponding author)
     conference_short: ICRA workshop
-    conference: ICRA Workshop: Future of Construction: Build Faster, Better, Safer - Together with Robots <strong>(ICRA)</strong>, 2022.
+    conference: ICRA Workshop, Future of Construction, Build Faster, Better, Safer - Together with Robots <strong>(ICRA)</strong>, 2022.
     pdf: https://construction-robots.github.io/papers/8.pdf
     image: ./assets/img/icraworkshop2022 training overview.png
     notes: Virtual Presentation

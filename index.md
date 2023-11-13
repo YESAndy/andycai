@@ -10,8 +10,8 @@ My research mainly focuses on construction robotics. My current interest is tryi
 
 ## Research Interests
 
-- **Construction Robotics:** 
-- **Machine Learning:** 
+- **Construction Robotics:** navigation, perception
+- **Reinforcement Learning** 
 
 ## News
 

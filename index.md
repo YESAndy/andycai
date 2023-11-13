@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student from [ICon Lab](https://intelconstructlab.github.io/index.html) at [the University of British Columbia](https://www.ubc.ca/). I earned my Master's degree at Carnegie Mellon University. 
+I am a Ph.D. student from [ICon Lab](https://intelconstructlab.github.io/index.html) at [the University of British Columbia](https://www.ubc.ca/). I earned my Master's degree at [Carnegie Mellon University](https://www.cmu.edu/). 
 
 My research mainly focuses on construction robotics. My current interest is trying to make use of Visual-Language-Model as prior information for robot navigation problems.
 

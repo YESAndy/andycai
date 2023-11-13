@@ -16,7 +16,9 @@ My research mainly focuses on construction robotics. My current interest is tryi
 ## News
 
 - **[Sep. 2023]** Our paper is accepted to BuildSys2023.
+- **[Aug. 2023]** My first journal is published to Automation in Construction.
 - **[Sep. 2022]** Our paper is accepted to BuildSys2022.
+- **[Sep. 2021]** I was the receipt of the [Faculty of Applied Science Graduate Award (First-year CIV-EX Award)](https://students.ubc.ca/enrolment/finances/award-search/vancouver/faculty-applied-science/general/6434).
 
 {% include_relative _includes/publications.md %}
 

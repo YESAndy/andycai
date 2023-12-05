@@ -14,7 +14,7 @@ main:
     conference_short: AutoCon
     conference: Automation in Construction, 2023.
     pdf: https://www.sciencedirect.com/science/article/pii/S0926580523001619
-    image: ./assets/img/AcTEA-bot.png
+    image: ./assets/img/acteabot_demo.gif
     notes: Journal
 
   - title: "TEA-bot: a thermography enabled autonomous robot for detecting thermal leaks of HVAC systems in ceilings"

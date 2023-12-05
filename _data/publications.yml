@@ -9,6 +9,14 @@ main:
     image: ./assets/img/blipmap2023-demo.png
     notes: Oral Presentation
 
+  - title: Dexterous manipulation of construction tools using anthropomorphic robotic hand
+    authors: Lei Huang, <strong>Weijia Cai</strong>, Zihan Zhu, Zhengbo Zou* (*Corresponding author)
+    conference_short: AutoCon
+    conference: Automation in Construction, 2023.
+    pdf: https://doi.org/10.1016/j.autcon.2023.105133
+    image: ./assets/img/acteabot_demo.gif
+    notes: Journal
+
   - title: Actively-exploring thermography-enabled autonomous robotic system for detecting and registering HVAC thermal leaks
     authors: <strong>Weijia Cai</strong>, Lei Huang, Zhengbo Zou* (*Corresponding author)
     conference_short: AutoCon

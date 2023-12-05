@@ -14,6 +14,7 @@ main:
     conference_short: AutoCon
     conference: Automation in Construction, 2023.
     pdf: https://doi.org/10.1016/j.autcon.2023.105133
+    page: https://leihhhuang.github.io/DexConstruction/
     image: ./assets/img/dexcon_demo.gif
     notes: Journal
 

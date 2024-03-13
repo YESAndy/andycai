@@ -13,7 +13,7 @@ My research mainly focuses on construction robotics. My current interest is tryi
 - **Construction Robotics:** navigation, perception
 - **Visual Language Navigation:** multi-modality
 - **Graph Neural Network:** reasoning
-- **Reinforcement Learning** control
+- **Reinforcement Learning:** control
 
 ## News
 

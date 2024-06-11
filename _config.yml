@@ -18,8 +18,8 @@ linkedin: https://www.linkedin.com/in/weijia-cai-a49998181/
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/me.jpg
-favicon: ./assets/img/Columbia_Engineering_logo.png
-favicon_dark: ./assets/Columbia_Engineering_logo.png
+favicon: ./assets/img/cu_shield_v0.png
+favicon_dark: ./assets/cu_shield_v0.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."

@@ -17,6 +17,7 @@ My research mainly focuses on construction robotics. My current interest is tryi
 
 ## News
 
+- **[Jun. 2024]** I completed _PLAN FOR RESEARCH IMPACT WITH THE UNITED NATIONS SUSTAINABLE DEVELOPMENT GOALS_ training course from [HIKMA COLLECTIVE](https://www.hikma.studio/collective) and [CIFAL Victoria](https://www.uvic.ca/about-uvic/cifal/index.php).
 - **[Sep. 2023]** Our paper _RoboAuditor_ has been accepted to BuildSys2023.
 - **[Aug. 2023]** My first journal has been published in Automation in Construction.
 - **[Feb. 2023]** TEA-bot on [UBC Civil News](https://civil.ubc.ca/professor-zhengbo-zou-leverages-robotics-to-enhance-building-efficiency/)!

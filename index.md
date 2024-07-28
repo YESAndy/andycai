@@ -4,14 +4,15 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student from [ICon Lab](https://intelconstructlab.github.io/index.html) at [the University of British Columbia](https://www.ubc.ca/). I earned my Master's degree at [Carnegie Mellon University](https://www.cmu.edu/). 
+I am a Ph.D. student at [Columbia University](https://www.civil.columbia.edu/content/about), supervised by Dr. [Zhengbo Zou](https://scholar.google.com/citations?user=-p51P1kAAAAJ&hl=en). I spent three years at [University of British Columbia](https://www.ubc.ca/) as a PhD student. I earned my Master's degree at [Carnegie Mellon University](https://www.cmu.edu/). 
 
-My research mainly focuses on construction robotics. My current interest is trying to make use of Visual-Language-Model as prior information for robot navigation problems.
+My research mainly focuses on construction robotics.
 
 ## Research Interests
 
 - **Construction Robotics:** navigation, perception
 - **Visual Language Navigation:** multi-modality
+- **Large Language Model:** planning
 - **Graph Neural Network:** reasoning
 - **Reinforcement Learning:** control
 

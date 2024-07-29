@@ -1,6 +1,7 @@
 ---
 layout: homepage
 ---
+<br>
 
 ## About Me
 
@@ -16,6 +17,8 @@ My research mainly focuses on construction robotics.
 - **Graph Neural Network:** reasoning
 - **Reinforcement Learning:** control
 
+<br>
+
 ## News
 
 - **[Jun. 2024]** I completed _PLAN FOR RESEARCH IMPACT WITH THE UNITED NATIONS SUSTAINABLE DEVELOPMENT GOALS_ training course from [HIKMA COLLECTIVE](https://www.hikma.studio/collective) and [CIFAL Victoria](https://www.uvic.ca/about-uvic/cifal/index.php).
@@ -29,6 +32,10 @@ My research mainly focuses on construction robotics.
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
+
+<br>
+
+{% include_relative _includes/teaching.md %}
 
 <br>
 

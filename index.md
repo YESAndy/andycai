@@ -5,7 +5,7 @@ layout: homepage
 
 ## Short Bio
 
-I am a Ph.D. student at [Columbia University](https://www.civil.columbia.edu/content/about), where I am fortunate to be advised by Prof. [Zhengbo Zou](https://scholar.google.com/citations?user=-p51P1kAAAAJ&hl=en). From 2021 to 2024, I studied as a PhD student at [University of British Columbia](https://www.ubc.ca/). I earned my Master's degree at [Carnegie Mellon University](https://www.cmu.edu/), where I am luckily advised by Prof. [Pingbo Tang](https://scholar.google.com/citations?user=U43hPn8AAAAJ&hl=en).
+I am a Ph.D. student at [Columbia University](https://www.civil.columbia.edu/content/about), where I am fortunate to be advised by Prof. [Zhengbo Zou](https://scholar.google.com/citations?user=-p51P1kAAAAJ&hl=en). From 2021 to 2024, I studied as a PhD student at [University of British Columbia](https://www.ubc.ca/). I earned my Master's degree at [Carnegie Mellon University](https://www.cmu.edu/), where I was lucky to be advised by Prof. [Pingbo Tang](https://scholar.google.com/citations?user=U43hPn8AAAAJ&hl=en).
 
 My research mainly focuses on construction robotics. 
 

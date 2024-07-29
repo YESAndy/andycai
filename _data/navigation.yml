@@ -15,9 +15,10 @@ main:
 
   - title: "Publications"
     url: ./#publications
+    right: true
 
   - title: "News"
    url: ./#news
 
-  # - title: "Bio"
-  #   url: ./#about-me
+  - title: "Bio"
+    url: ./#about-me

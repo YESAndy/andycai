@@ -1,10 +1,12 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgba(222, 235, 255, 0.5); /* 50% transparency */
+    background-color: rgba(222, 235, 255, 0.7); /* 50% transparency */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
     overflow: hidden;
     position: fixed;
     z-index: 999;
-    width: 100%;
+    width: 110%;
     top: 0;
 }
 

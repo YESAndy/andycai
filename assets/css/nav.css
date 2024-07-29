@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgba(0, 45, 114, 0.5); /* 50% transparency */
+    background-color: rgba(222, 235, 255, 0.5); /* 50% transparency */
     overflow: hidden;
     position: fixed;
     z-index: 999;

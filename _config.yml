@@ -1,13 +1,16 @@
 # Basic Information 
 title: Weijia Cai
 position: Ph.D. Student
-affiliation: The University of British Columbia
+affiliation: Columbia University
+affiliation_link: https://www.columbia.edu/
+affiliation_logo: ./assets/img/cu_sheild_v0.png
+email: wc2900 (at) columbia.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: robotics, large language model, construction
+description: Weijia Cai is a PhD student from Columbia University.
+canonical: https://yesandy.github.io/andycai/#about-me
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.

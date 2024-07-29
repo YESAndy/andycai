@@ -39,4 +39,4 @@ My research mainly focuses on construction robotics.
 
 <br>
 
-{% include_relative _includes/teaching.md %}
+{% include_relative _includes/contact.md %}

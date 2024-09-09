@@ -19,6 +19,7 @@ My research mainly focuses on construction robotics.
 
 ## News
 
+- **[Sep. 2024]** Our paper "VIRL" has been accepted by [2024 Conference on Robot Learning](https://www.corl.org/home)!
 - **[Aug. 2024]** I started my new journey as a PhD student at Columbia University!
 - **[Jun. 2024]** I completed _PLAN FOR RESEARCH IMPACT WITH THE UNITED NATIONS SUSTAINABLE DEVELOPMENT GOALS_ training course from [HIKMA COLLECTIVE](https://www.hikma.studio/collective) and [CIFAL Victoria](https://www.uvic.ca/about-uvic/cifal/index.php).
 - **[Sep. 2023]** Our paper _RoboAuditor_ has been accepted to BuildSys2023.

@@ -5,9 +5,12 @@ layout: homepage
 
 ## Short Bio
 
-I am a Ph.D. student at [Columbia University](https://www.civil.columbia.edu/content/about), where I am fortunate to be advised by Prof. [Zhengbo Zou](https://scholar.google.com/citations?user=-p51P1kAAAAJ&hl=en). From 2021 to 2024, I studied as a PhD student at [University of British Columbia](https://www.ubc.ca/). I earned my Master's degree at [Carnegie Mellon University](https://www.cmu.edu/), where I was lucky to be advised by Prof. [Pingbo Tang](https://scholar.google.com/citations?user=U43hPn8AAAAJ&hl=en).
+I am a Ph.D. student affiliated to [ICON@Columbia](https://intelconstructlab.github.io/index.html), where I am fortunate to be advised by Prof. [Zhengbo Zou](https://scholar.google.com/citations?user=-p51P1kAAAAJ&hl=en). From 2021 to 2024, I studied as a PhD student at [University of British Columbia](https://www.ubc.ca/). I earned my Master's degree at [Carnegie Mellon University](https://www.cmu.edu/), where I was lucky to be advised by Prof. [Pingbo Tang](https://scholar.google.com/citations?user=U43hPn8AAAAJ&hl=en).
 
-My research mainly focuses on construction robotics. 
+My motivation for research originates from Hayao Miyazaki’s movies, through which I learned to appreciate the beauty of perceiving, preserving, and reconstructing the world’s dynamics through art. I am fortunate enough to embrace the rise of AI and robotics during my PhD. With these advances, my robots with spatial perception and reasoning, are able to interact with the environments and describe the world dynamics. 
+
+## Mentoring
+I am always interested in mentoring highly motivated undergraduate and master’s students in CE/ME/CS/EE. If you’re at Columbia and would like to discuss project ideas or research opportunities, don’t hesitate to send me an email!
 
 ## Research Interests
 

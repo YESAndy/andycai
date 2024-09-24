@@ -1,5 +1,14 @@
 main:
 
+  - title: "VIRL: Self-Supervised Visual Graph Inverse Reinforcement Learning"
+    authors: #Lei Huang, <strong>#Weijia Cai</strong>, Zihan Zhu, Chen Feng, Helge Rhodin, Zhengbo Zou* (# equal contribution, *Corresponding author)
+    conference_short: CoRL
+    conference: The 8th Conference on Robot Learning <strong>(CoRL)</strong>, 2024.
+    pdf: https://openreview.net/forum?id=fDRO4NHEwZ
+    page: https://yesandy.github.io/andycai/
+    image: ./assets/img/virl.gif
+    notes: Poster Presentation
+    
   - title: "RoboAuditor: Goal-Oriented Robotic System for Assessing Energy-intensive Indoor Appliance via Visual Language Models"
     authors: <strong>Weijia Cai</strong>, Lei Huang, Zhengbo Zou* (*Corresponding author)
     conference_short: BuildSys

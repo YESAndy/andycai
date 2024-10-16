@@ -1,7 +1,7 @@
 main:
 
   - title: "VIRL: Self-Supervised Visual Graph Inverse Reinforcement Learning"
-    authors: \#Lei Huang, <strong>\#Weijia Cai</strong>, Zihan Zhu, Chen Feng, Helge Rhodin, Zhengbo Zou* (\# equal contribution, *Corresponding author)
+    authors: Lei Huang, <strong>Weijia Cai</strong>, Zihan Zhu, Chen Feng, Helge Rhodin, Zhengbo Zou* (*Corresponding author)
     conference_short: CoRL
     conference: The 8th Conference on Robot Learning <strong>(CoRL)</strong>, 2024.
     pdf: https://openreview.net/forum?id=fDRO4NHEwZ

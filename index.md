@@ -16,7 +16,7 @@ I am always interested in mentoring highly motivated undergraduate and master’
 
 - **Construction Robotics:** navigation, perception
 - **Large Language Model:** planning
-- **Graph Neural Network:** reasoning
+- **Gaussian Splatting:** 3D representation
 - **Reinforcement Learning:** control
 
 

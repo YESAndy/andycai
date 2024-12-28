@@ -1,5 +1,13 @@
 main:
 
+  - title: "YUMA: a bipedal robot"
+    authors: <strong>Weijia Cai</strong>
+    conference_short: 4611E
+    conference: Robot Studio <strong>(4611E)</strong>, 2024.
+    page: https://youtu.be/hwJFn1Lu34o
+    image: ./assets/img/yuma_dance.gif
+    notes: Course project
+    
   - title: "VIRL: Self-Supervised Visual Graph Inverse Reinforcement Learning"
     authors: Lei Huang, <strong>Weijia Cai</strong>, Zihan Zhu, Chen Feng, Helge Rhodin, Zhengbo Zou* (*Corresponding author)
     conference_short: CoRL

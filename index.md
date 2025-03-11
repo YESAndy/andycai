@@ -22,6 +22,7 @@ I am always interested in mentoring highly motivated undergraduate and master’
 
 ## News
 
+- **[Mar. 2024]** My paper "LightSplat" has been accepted by [i3CE2025](https://www.lsu.edu/eng/cm/i3ce2025/)!
 - **[Dec. 2024]** Just finished my first course project _YUMA_ at Columbia.
 - **[Sep. 2024]** Our paper "VIRL" has been accepted by [2024 Conference on Robot Learning](https://www.corl.org/home)!
 - **[Aug. 2024]** I started my new journey as a PhD student at Columbia University!

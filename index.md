@@ -22,7 +22,7 @@ I am always interested in mentoring highly motivated undergraduate and master’
 
 ## News
 
-- **[June. 2025]** My paper "Leveraging Open-Vocabulary Object Detection in Goal-Oriented Navigation for Assessing Indoor Energy–Intensive Devices" has been accepted by [JCCE](https://ascelibrary.org/doi/full/10.1061/JCCEE5.CPENG-6376)!
+- **[June. 2025]** My paper "Leveraging Open-Vocabulary Object Detection in Goal-Oriented Navigation for Assessing Indoor Energy–Intensive Devices" has been accepted by [Journal of Computing in Civil Engineering](https://ascelibrary.org/doi/full/10.1061/JCCEE5.CPENG-6376)!
 - **[Mar. 2025]** My paper "LightSplat" has been accepted by [i3CE2025](https://www.lsu.edu/eng/cm/i3ce2025/)!
 - **[Dec. 2024]** Just finished my first course project _YUMA_ at Columbia.
 - **[Sep. 2024]** Our paper "VIRL" has been accepted by [2024 Conference on Robot Learning](https://www.corl.org/home)!

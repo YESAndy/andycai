@@ -15,9 +15,9 @@ I am always interested in mentoring highly motivated undergraduate and master’
 ## Research Interests
 
 - **Construction Robotics:** navigation, perception
+- **Indoor Environment Quality:** simulation, robotic information gathering
 - **Gaussian Splatting:** 3D representation
 - **Large Language Model:** planning
-- **Reinforcement Learning:** control
 
 
 ## News

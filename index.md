@@ -22,6 +22,7 @@ I am always interested in mentoring highly motivated undergraduate and master’
 
 ## News
 
+- **[Nov. 2025]** My paper "RoboAuditor-LLM: A Robotic System for Energy Auditing via a Large Language Model and an Actionable Semantic Feature Map" has been published in [ASCE OPEN: Multidisciplinary Journal of Civil Engineering](https://ascelibrary.org/doi/10.1061/AOMJAH.AOENG-0087)!
 - **[June. 2025]** My paper "Leveraging Open-Vocabulary Object Detection in Goal-Oriented Navigation for Assessing Indoor Energy–Intensive Devices" has been published in [Journal of Computing in Civil Engineering](https://ascelibrary.org/doi/full/10.1061/JCCEE5.CPENG-6376)!
 - **[Mar. 2025]** My paper "LightSplat" has been accepted by [i3CE2025](https://www.lsu.edu/eng/cm/i3ce2025/)!
 - **[Dec. 2024]** Just finished my first course project _YUMA_ at Columbia.

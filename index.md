@@ -22,6 +22,7 @@ I am always interested in mentoring highly motivated undergraduate and master’
 
 ## News
 
+- **[April. 2026]** My paper "USIVA: Uncertainty-guided Spatiotemporal Mapping for Indoor Ventilation Assessment" has been accepted by [CVPR 5th Workshop on Computer Vision for the Built World (CV4AEC) 2026](https://cv4aec.github.io/)!
 - **[Nov. 2025]** My paper "RoboAuditor-LLM: A Robotic System for Energy Auditing via a Large Language Model and an Actionable Semantic Feature Map" has been published in [ASCE OPEN: Multidisciplinary Journal of Civil Engineering](https://ascelibrary.org/doi/10.1061/AOMJAH.AOENG-0087)!
 - **[June. 2025]** My paper "Leveraging Open-Vocabulary Object Detection in Goal-Oriented Navigation for Assessing Indoor Energy–Intensive Devices" has been published in [Journal of Computing in Civil Engineering](https://ascelibrary.org/doi/full/10.1061/JCCEE5.CPENG-6376)!
 - **[Mar. 2025]** My paper "LightSplat" has been accepted by [i3CE2025](https://www.lsu.edu/eng/cm/i3ce2025/)!

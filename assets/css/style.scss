@@ -2,3 +2,299 @@
 ---
 
 @import "minimal-light";
+
+/* ============================================================
+   Style C — personal & artistic override layer
+   Palette: warm paper background, organic green-teal accent
+   Type: Crimson Pro (voice/headings) + Inter (body)
+   ============================================================ */
+
+:root {
+  --accent: #0F6E56;
+  --accent-soft: #1D9E75;
+  --accent-tint: #E1F5EE;
+  --accent-deep: #085041;
+  --paper: #FBFAF7;
+  --ink: #3d3a36;
+  --ink-strong: #26231f;
+  --serif: "Crimson Pro", Georgia, serif;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #5DCAA5;
+    --accent-soft: #9FE1CB;
+    --accent-tint: rgba(29, 158, 117, 0.16);
+    --accent-deep: #9FE1CB;
+    --paper: #1c1e1d;
+    --ink: #cfcdc6;
+    --ink-strong: #eceae4;
+  }
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font: 15px/1.75 var(--sans);
+  font-weight: 400;
+  padding: 50px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+  }
+}
+
+/* --- Headings: serif voice with a small organic underline --- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif);
+  color: var(--ink-strong);
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 2.4em 0 0.7em;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--accent-soft);
+  margin-top: 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--ink-strong);
+  }
+}
+
+/* --- Links: accent color with soft underline on hover --- */
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease, background-size 0.25s ease;
+  background-image: linear-gradient(var(--accent-soft), var(--accent-soft));
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+
+a:hover {
+  color: var(--accent-soft);
+  background-size: 100% 1px;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: var(--accent);
+  }
+  a:hover {
+    color: var(--accent-soft);
+  }
+}
+
+strong {
+  color: var(--ink-strong);
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  strong {
+    color: var(--ink-strong);
+  }
+}
+
+autocolor {
+  color: var(--ink);
+}
+
+@media (prefers-color-scheme: dark) {
+  autocolor {
+    color: var(--ink);
+  }
+}
+
+/* --- Sidebar / header --- */
+
+header h1 {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+position {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--ink);
+}
+
+email {
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.image.avatar img {
+  border-radius: 28%;
+  padding: 0;
+  border: 1px solid rgba(29, 158, 117, 0.25);
+  transition: transform 0.4s ease;
+}
+
+.image.avatar img:hover {
+  transform: rotate(-1.5deg) scale(1.02);
+}
+
+#header .image.avatar {
+  margin: 0 0 1.2em 0;
+}
+
+.social-icons a {
+  color: var(--accent) !important;
+  transition: transform 0.2s ease, color 0.2s ease;
+  background-image: none;
+}
+
+.social-icons a:hover {
+  background-color: var(--accent-tint);
+  color: var(--accent-deep) !important;
+  transform: scale(1.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  .social-icons a {
+    color: var(--accent) !important;
+  }
+  .social-icons a:hover {
+    background-color: var(--accent-tint);
+    transform: scale(1.12);
+  }
+}
+
+/* --- Bio quote (Miyazaki paragraph): serif voice --- */
+
+blockquote {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 17.5px;
+  line-height: 1.7;
+  color: var(--ink);
+  border-left: 2px solid var(--accent-soft);
+  border-radius: 0;
+  margin: 0 0 20px;
+  padding: 2px 0 2px 18px;
+  background: none;
+}
+
+/* --- Research interests as organic pills --- */
+
+#research-interests + ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#research-interests + ul li {
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  font-size: 13.5px;
+  line-height: 1.5;
+  padding: 6px 15px;
+  border-radius: 999px;
+  transition: transform 0.2s ease;
+}
+
+#research-interests + ul li:hover {
+  transform: translateY(-2px);
+}
+
+#research-interests + ul li strong {
+  color: var(--accent-deep);
+  font-weight: 600;
+}
+
+/* --- News: quiet list with accent markers --- */
+
+#news + ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#news + ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 7px;
+}
+
+#news + ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  opacity: 0.7;
+}
+
+/* --- Tables (teaching, services) --- */
+
+th, td {
+  border-bottom: 1px solid rgba(29, 158, 117, 0.15);
+}
+
+th, dt {
+  color: var(--ink-strong);
+}
+
+@media (prefers-color-scheme: dark) {
+  th, dt {
+    color: var(--ink-strong);
+  }
+}
+
+hr {
+  background: rgba(29, 158, 117, 0.2);
+}
+
+/* --- Subtle scroll fade-in --- */
+
+.fade-in-block {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-block.visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in-block {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  a, .image.avatar img, .social-icons a {
+    transition: none;
+  }
+}

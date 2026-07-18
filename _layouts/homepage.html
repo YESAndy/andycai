@@ -80,7 +80,58 @@
     gtag('config', 'G-YXVX2WVW30');
   </script>
   <body>
-    
+
+    <div id="intro-overlay" role="button" aria-label="Enter homepage" tabindex="0">
+      <canvas id="air-canvas"></canvas>
+      <div class="intro-center">
+        <h1 class="intro-name">Weijia Cai <span>蔡伟嘉</span></h1>
+        <p class="intro-tag">Robots, perception, and the built world.</p>
+        <p class="intro-hint">Click anywhere to enter</p>
+      </div>
+      <div id="hexapod" aria-hidden="true">
+        <svg viewBox="0 0 100 160" xmlns="http://www.w3.org/2000/svg">
+          <g class="robot-body">
+            <g transform="translate(42,80)"><g class="hex-leg b">
+              <path d="M -5 0 L 5 0 L 4 58 L -4 58 Z" fill="#7d7248" stroke="#4f472c" stroke-width="1.4"/>
+              <path d="M -4 12 L 4 12 M -4 26 L 4 26 M -4 40 L 4 40" stroke="#4f472c" stroke-width="1" opacity="0.55"/>
+              <rect x="-8" y="56" width="15" height="7" rx="3" fill="#756b45" stroke="#4f472c" stroke-width="1.4"/>
+            </g></g>
+            <g transform="translate(58,80)"><g class="hex-leg a">
+              <path d="M -5 0 L 5 0 L 4 58 L -4 58 Z" fill="#756b45" stroke="#4f472c" stroke-width="1.4"/>
+              <path d="M -4 12 L 4 12 M -4 26 L 4 26 M -4 40 L 4 40" stroke="#4f472c" stroke-width="1" opacity="0.55"/>
+              <rect x="-7" y="56" width="15" height="7" rx="3" fill="#756b45" stroke="#4f472c" stroke-width="1.4"/>
+            </g></g>
+            <path d="M 36 34 Q 50 28 64 34 L 67 62 Q 60 78 50 78 Q 40 78 33 62 Z" fill="#7d7248" stroke="#4f472c" stroke-width="1.5"/>
+            <path d="M 38 48 Q 50 44 62 48" fill="none" stroke="#4f472c" stroke-width="1" opacity="0.6"/>
+            <path d="M 40 62 Q 50 58 60 62" fill="none" stroke="#4f472c" stroke-width="1" opacity="0.6"/>
+            <g transform="translate(31,40)"><g class="hex-leg a">
+              <circle cx="0" cy="0" r="6.5" fill="#756b45" stroke="#4f472c" stroke-width="1.4"/>
+              <path d="M -4 4 L 3 4 L 1 42 Q 0 48 -2 52 L -7 50 Q -5 46 -5 40 Z" fill="#7d7248" stroke="#4f472c" stroke-width="1.4"/>
+              <path d="M -4 14 L 2 14 M -5 24 L 2 24 M -5 34 L 1 34" stroke="#4f472c" stroke-width="1" opacity="0.55"/>
+              <ellipse cx="-5" cy="56" rx="5.5" ry="7.5" fill="#756b45" stroke="#4f472c" stroke-width="1.4"/>
+            </g></g>
+            <g transform="translate(69,40)"><g class="hex-leg b">
+              <circle cx="0" cy="0" r="6.5" fill="#756b45" stroke="#4f472c" stroke-width="1.4"/>
+              <path d="M -3 4 L 4 4 L 5 40 Q 5 46 7 50 L 2 52 Q 0 48 -1 42 Z" fill="#7d7248" stroke="#4f472c" stroke-width="1.4"/>
+              <path d="M -2 14 L 4 14 M -2 24 L 5 24 M -1 34 L 5 34" stroke="#4f472c" stroke-width="1" opacity="0.55"/>
+              <ellipse cx="5" cy="56" rx="5.5" ry="7.5" fill="#756b45" stroke="#4f472c" stroke-width="1.4"/>
+            </g></g>
+            <path d="M 46 30 L 54 30 L 53 34 L 47 34 Z" fill="#756b45" stroke="#4f472c" stroke-width="1.2"/>
+            <path d="M 40 18 Q 40 8 50 8 Q 60 8 60 18 L 59 26 Q 50 30 41 26 Z" fill="#7d7248" stroke="#4f472c" stroke-width="1.5"/>
+            <ellipse cx="50" cy="19" rx="7" ry="2.6" fill="#3a3526" opacity="0.9"/>
+            <ellipse cx="50" cy="19" rx="3" ry="1.6" fill="#eae484" class="robot-eye"/>
+            <path d="M 43 10 Q 50 5 58 9 Q 56 12 50 11 Q 45 12 43 10 Z" fill="#4aa96c"/>
+            <circle cx="47" cy="9" r="1.6" fill="#7ed6a0"/>
+            <path d="M 33 36 Q 38 32 42 35 Q 41 39 36 39 Q 33 39 33 36 Z" fill="#4aa96c"/>
+            <circle cx="64" cy="36" r="2.6" fill="#4aa96c"/>
+            <circle cx="65" cy="35" r="1.2" fill="#7ed6a0"/>
+            <circle cx="44" cy="70" r="2.2" fill="#4aa96c"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+
 <!--     <div class="topnav">
 
       <a href="{{ site.affiliation_link }}"><img width="190" src="{{ site.affiliation_logo }}"></a>
@@ -238,6 +289,236 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      (function () {
+        var ov = document.getElementById('intro-overlay');
+        var bot = document.getElementById('hexapod');
+        if (!ov || !bot) return;
+        try {
+          if (sessionStorage.getItem('introSeen')) { ov.classList.add('hidden'); return; }
+        } catch (e) {}
+
+        function enter() {
+          if (ov.classList.contains('leaving')) return;
+          ov.classList.add('leaving');
+          try { sessionStorage.setItem('introSeen', '1'); } catch (e) {}
+          setTimeout(function () { ov.classList.add('hidden'); }, 700);
+        }
+        ov.addEventListener('click', enter);
+        ov.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); enter(); }
+        });
+
+        /* ---------- house layout, robot, and air simulation ---------- */
+        var canvas = document.getElementById('air-canvas');
+        var ctx = canvas.getContext('2d');
+        var W, H, walls = [];
+        var WT = 8;                          /* wall thickness */
+        var BOT_W = 64, BOT_H = 102;         /* robot footprint */
+        var dark = window.matchMedia('(prefers-color-scheme: dark)');
+        function wallColor() { return dark.matches ? 'rgba(214,209,196,0.38)' : 'rgba(70,64,54,0.42)'; }
+        function airColor() { return dark.matches ? 'rgba(93,202,165,' : 'rgba(15,110,86,'; }
+
+        function buildWalls() {
+          W = window.innerWidth; H = window.innerHeight;
+          canvas.width = W; canvas.height = H;
+          var m = 26, g;
+          walls = [
+            { x: m, y: m, w: W - 2 * m, h: WT },
+            { x: m, y: H - m - WT, w: W - 2 * m, h: WT },
+            { x: m, y: m, w: WT, h: H - 2 * m },
+            { x: W - m - WT, y: m, w: WT, h: H - 2 * m }
+          ];
+          var vx0 = Math.round(W * 0.58);
+          g = Math.max(120, H * 0.22);
+          var g1a = H * 0.36, g1b = g1a + g;
+          walls.push({ x: vx0, y: m, w: WT, h: g1a - m });
+          walls.push({ x: vx0, y: g1b, w: WT, h: H - m - g1b });
+          var hy = Math.round(H * 0.56);
+          g = Math.max(120, W * 0.12);
+          var g2a = W * 0.16, g2b = g2a + g;
+          walls.push({ x: m, y: hy, w: g2a - m, h: WT });
+          walls.push({ x: g2b, y: hy, w: vx0 - g2b, h: WT });
+          var hy2 = Math.round(H * 0.44);
+          var g3a = W * 0.7, g3b = g3a + g;
+          walls.push({ x: vx0 + WT, y: hy2, w: g3a - (vx0 + WT), h: WT });
+          walls.push({ x: g3b, y: hy2, w: W - m - g3b, h: WT });
+        }
+        buildWalls();
+        window.addEventListener('resize', buildWalls);
+
+        function collideCircle(cx, cy, r) {
+          /* returns corrected center + hit normals */
+          var hit = { x: cx, y: cy, nx: 0, ny: 0 };
+          for (var i = 0; i < walls.length; i++) {
+            var wl = walls[i];
+            var nx = Math.max(wl.x, Math.min(hit.x, wl.x + wl.w));
+            var ny = Math.max(wl.y, Math.min(hit.y, wl.y + wl.h));
+            var dx = hit.x - nx, dy = hit.y - ny;
+            var d2 = dx * dx + dy * dy;
+            if (d2 < r * r) {
+              var d = Math.sqrt(d2) || 0.01;
+              var push = (r - d) / d;
+              hit.x += dx * push; hit.y += dy * push;
+              hit.nx = dx / d; hit.ny = dy / d;
+            }
+          }
+          return hit;
+        }
+
+        /* robot state — spawns inside the top-left room */
+        var x = W * 0.29 - BOT_W / 2, y = H * 0.27 - BOT_H / 2, facing = 1, vx = 0, vy = 0;
+        function botCx() { return x + BOT_W / 2; }
+        function botCy() { return y + BOT_H * 0.8; }
+        function render() {
+          bot.style.transform = 'translate(' + x + 'px,' + y + 'px) scaleX(' + facing + ')';
+        }
+        render();
+
+        var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        /* air waves: ambient traveling waves + ripples shed by the robot */
+        function insideWall(px, py) {
+          for (var i = 0; i < walls.length; i++) {
+            var wl = walls[i];
+            if (px > wl.x && px < wl.x + wl.w && py > wl.y && py < wl.y + wl.h) return true;
+          }
+          return false;
+        }
+        var ripples = [];
+        var rippleTimer = 0;
+
+        ov.addEventListener('mousemove', function (e) {
+          var dx = botCx() - e.clientX, dy = botCy() - e.clientY;
+          var d = Math.hypot(dx, dy) || 1;
+          if (d < 170) {
+            var s = ((170 - d) / 170) * 7 + 2;
+            vx += (dx / d) * s;
+            vy += (dy / d) * s;
+          }
+        });
+
+        function drawWalls() {
+          ctx.fillStyle = wallColor();
+          for (var i = 0; i < walls.length; i++) {
+            var wl = walls[i];
+            ctx.fillRect(wl.x, wl.y, wl.w, wl.h);
+          }
+        }
+
+        var t = 0;
+        function tick() {
+          t += 0.008;
+
+          /* --- robot motion --- */
+          var sp = Math.hypot(vx, vy);
+          if (sp > 0.15) {
+            if (sp > 6) { vx *= 6 / sp; vy *= 6 / sp; sp = 6; }
+            x += vx; y += vy;
+            var c = collideCircle(botCx(), botCy(), 30);
+            x = c.x - BOT_W / 2; y = c.y - BOT_H * 0.8;
+            if (c.nx) vx = vx * 0.4 + c.nx * sp * 0.5;
+            if (c.ny) vy = vy * 0.4 + c.ny * sp * 0.5;
+            if (Math.abs(vx) > 0.3) facing = vx < 0 ? -1 : 1;
+            vx *= 0.93; vy *= 0.93;
+            bot.classList.add('walking');
+            render();
+          } else {
+            bot.classList.remove('walking');
+          }
+
+          /* --- air simulation (waves) --- */
+          ctx.clearRect(0, 0, W, H);
+          drawWalls();
+          var rcx = botCx(), rcy = botCy();
+          var moving = sp > 0.4;
+
+          /* robot sheds expanding ripples while walking; a faint slow one when idle */
+          rippleTimer++;
+          if (moving && rippleTimer > 9) {
+            ripples.push({ x: rcx, y: rcy, r: 12, amp: 4 + sp * 1.6, speed: 2.2 });
+            rippleTimer = 0;
+          } else if (!moving && rippleTimer > 110) {
+            ripples.push({ x: rcx, y: rcy, r: 12, amp: 2.2, speed: 1.1 });
+            rippleTimer = 0;
+          }
+          for (var i = ripples.length - 1; i >= 0; i--) {
+            var rp = ripples[i];
+            rp.r += rp.speed;
+            rp.amp *= 0.985;
+            if (rp.amp < 0.25 || rp.r > Math.max(W, H)) ripples.splice(i, 1);
+          }
+          if (ripples.length > 36) ripples.splice(0, ripples.length - 36);
+
+          /* temperature-style color field: hot at bottom-left -> cool at top-right */
+          var grad = ctx.createLinearGradient(0, H, W, 0);
+          if (dark.matches) {
+            grad.addColorStop(0, 'rgba(240,105,75,0.5)');
+            grad.addColorStop(0.5, 'rgba(239,159,39,0.42)');
+            grad.addColorStop(1, 'rgba(93,202,165,0.42)');
+          } else {
+            grad.addColorStop(0, 'rgba(200,70,40,0.45)');
+            grad.addColorStop(0.5, 'rgba(186,117,23,0.4)');
+            grad.addColorStop(1, 'rgba(15,110,86,0.38)');
+          }
+
+          /* wave lines: sample each row, displace by ambient waves + ripples + wake */
+          var rowGap = 34, step = 12;
+          ctx.lineWidth = 1.1;
+          ctx.strokeStyle = grad;
+          for (var y0 = 44; y0 < H - 36; y0 += rowGap) {
+            var pen = false;
+            ctx.beginPath();
+            for (var px = 30; px < W - 28; px += step) {
+              /* local temperature: 1 at bottom-left, 0 at top-right */
+              var heat = ((y0 / H) + (1 - px / W)) / 2;
+              /* ambient traveling wave; hot air moves more */
+              var en = 0.55 + heat * 1.1;
+              var dy = en * (3.2 * Math.sin(px * 0.016 + t * 5 + y0 * 0.11)
+                     + 1.6 * Math.sin(px * 0.007 - t * 3.1 + y0 * 0.05));
+              var dx2 = 0;
+
+              /* ripples: radial displacement at the expanding front */
+              for (var k = 0; k < ripples.length; k++) {
+                var rk = ripples[k];
+                var ddx = px - rk.x, ddy = y0 - rk.y;
+                var dd = Math.hypot(ddx, ddy) || 1;
+                var band = dd - rk.r;
+                if (band > -26 && band < 26) {
+                  var g = Math.exp(-(band * band) / 180) * rk.amp;
+                  dx2 += (ddx / dd) * g;
+                  dy += (ddy / dd) * g;
+                }
+              }
+
+              /* direct wake: air dragged along the robot's velocity */
+              if (moving) {
+                var wdx = px - rcx, wdy = y0 - rcy;
+                var wd = Math.hypot(wdx, wdy);
+                if (wd < 130) {
+                  var wf = (1 - wd / 130) * 1.6;
+                  dx2 += vx * wf;
+                  dy += vy * wf;
+                }
+              }
+
+              var fx = px + dx2, fy = y0 + dy;
+              /* break the line at walls so waves stay inside rooms */
+              if (insideWall(px, y0) || insideWall(fx, fy)) {
+                if (pen) { ctx.stroke(); ctx.beginPath(); pen = false; }
+                continue;
+              }
+              if (!pen) { ctx.moveTo(fx, fy); pen = true; }
+              else ctx.lineTo(fx, fy);
+            }
+            if (pen) ctx.stroke();
+          }
+
+          requestAnimationFrame(tick);
+        }
+        if (reduced) { drawWalls(); } else { tick(); }
+      })();
+    </script>
     <script>
       (function () {
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;

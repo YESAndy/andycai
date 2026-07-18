@@ -275,6 +275,149 @@ hr {
   background: rgba(29, 158, 117, 0.2);
 }
 
+/* --- Intro overlay --- */
+
+#intro-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--paper);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: opacity 0.7s ease;
+}
+
+#intro-overlay.leaving {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#intro-overlay.hidden {
+  display: none;
+}
+
+.intro-center {
+  text-align: center;
+  z-index: 2;
+  pointer-events: none;
+  padding: 0 24px;
+}
+
+.intro-name {
+  font-family: var(--serif);
+  font-size: clamp(34px, 6vw, 52px);
+  font-weight: 600;
+  color: var(--ink-strong);
+  margin: 0 0 10px;
+  letter-spacing: -0.01em;
+}
+
+.intro-name span {
+  color: var(--accent-soft);
+  font-weight: 500;
+}
+
+.intro-tag {
+  font-family: var(--serif);
+  font-size: 19px;
+  color: var(--ink);
+  margin: 0;
+}
+
+.intro-hint {
+  margin-top: 4em;
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  animation: intro-pulse 2.6s ease-in-out infinite;
+}
+
+@keyframes intro-pulse {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.75; }
+}
+
+/* --- Hexapod robot --- */
+
+#air-canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+#hexapod {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 64px;
+  height: 102px;
+  z-index: 1;
+  will-change: transform;
+}
+
+#hexapod svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.hex-leg {
+  transform-box: fill-box;
+  transform-origin: center top;
+  animation: leg-step 3.4s ease-in-out infinite;
+}
+
+.hex-leg.b {
+  animation-delay: 1.7s;
+}
+
+#hexapod.walking .hex-leg {
+  animation-duration: 0.34s;
+  animation-timing-function: ease-in-out;
+}
+
+#hexapod.walking .hex-leg.b {
+  animation-delay: 0.17s;
+}
+
+@keyframes leg-step {
+  0%, 100% { transform: rotate(7deg); }
+  50% { transform: rotate(-7deg); }
+}
+
+.robot-body {
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+
+#hexapod.walking .robot-body {
+  animation: robot-bob 0.34s ease-in-out infinite;
+}
+
+@keyframes robot-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2.5px); }
+}
+
+.robot-eye {
+  animation: eye-glow 3.2s ease-in-out infinite;
+}
+
+@keyframes eye-glow {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hex-leg, .intro-hint, .robot-body, .robot-eye {
+    animation: none;
+  }
+}
+
 /* --- Subtle scroll fade-in --- */
 
 .fade-in-block {

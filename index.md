@@ -20,20 +20,20 @@ I am always interested in mentoring highly motivated undergraduate and master’
 
 ## News
 
-- **[April. 2026]** My paper "USIVA: Uncertainty-guided Spatiotemporal Mapping for Indoor Ventilation Assessment" has been accepted by [CVPR 5th Workshop on Computer Vision for the Built World (CV4AEC) 2026](https://cv4aec.github.io/)!
+- **[Apr. 2026]** My paper "USIVA: Uncertainty-guided Spatiotemporal Mapping for Indoor Ventilation Assessment" has been accepted to the [5th CVPR Workshop on Computer Vision for the Built World (CV4AEC) 2026](https://cv4aec.github.io/)!
 - **[Nov. 2025]** My paper "RoboAuditor-LLM: A Robotic System for Energy Auditing via a Large Language Model and an Actionable Semantic Feature Map" has been published in [ASCE OPEN: Multidisciplinary Journal of Civil Engineering](https://ascelibrary.org/doi/10.1061/AOMJAH.AOENG-0087)!
-- **[June. 2025]** My paper "Leveraging Open-Vocabulary Object Detection in Goal-Oriented Navigation for Assessing Indoor Energy–Intensive Devices" has been published in [Journal of Computing in Civil Engineering](https://ascelibrary.org/doi/full/10.1061/JCCEE5.CPENG-6376)!
-- **[Mar. 2025]** My paper "LightSplat" has been accepted by [i3CE2025](https://www.lsu.edu/eng/cm/i3ce2025/)!
-- **[Dec. 2024]** Just finished my first course project _YUMA_ at Columbia.
-- **[Sep. 2024]** Our paper "VIRL" has been accepted by [2024 Conference on Robot Learning](https://www.corl.org/home)!
+- **[Jun. 2025]** My paper "Leveraging Open-Vocabulary Object Detection in Goal-Oriented Navigation for Assessing Indoor Energy–Intensive Devices" has been published in [Journal of Computing in Civil Engineering](https://ascelibrary.org/doi/full/10.1061/JCCEE5.CPENG-6376)!
+- **[Mar. 2025]** My paper "LightSplat" has been accepted to [i3CE 2025](https://www.lsu.edu/eng/cm/i3ce2025/)!
+- **[Dec. 2024]** I just finished my first course project, _YUMA_, at Columbia.
+- **[Sep. 2024]** Our paper "VIRL" has been accepted to the [2024 Conference on Robot Learning](https://www.corl.org/home)!
 - **[Aug. 2024]** I started my new journey as a PhD student at Columbia University!
-- **[Jun. 2024]** I completed _PLAN FOR RESEARCH IMPACT WITH THE UNITED NATIONS SUSTAINABLE DEVELOPMENT GOALS_ training course from [HIKMA COLLECTIVE](https://www.hikma.studio/collective) and [CIFAL Victoria](https://www.uvic.ca/about-uvic/cifal/index.php).
-- **[Sep. 2023]** Our paper _RoboAuditor_ has been accepted to BuildSys2023.
-- **[Aug. 2023]** My first journal has been published in Automation in Construction.
-- **[Feb. 2023]** TEA-bot on [UBC Civil News](https://civil.ubc.ca/professor-zhengbo-zou-leverages-robotics-to-enhance-building-efficiency/)!
-- **[Sep. 2022]** Our paper _TEA-bot_ has been accepted to BuildSys2022.
-- **[May. 2022]** Our paper has been accepted to IEEE ICRA 2022 Workshop on Future of Construction: Build Faster, Better, Safe – Together with Robotics.
-- **[Sep. 2021]** I was the receipt of the [Faculty of Applied Science Graduate Award (First-year CIV-EX Award)](https://students.ubc.ca/enrolment/finances/award-search/vancouver/faculty-applied-science/general/6434).
+- **[Jun. 2024]** I completed the _Plan for Research Impact with the United Nations Sustainable Development Goals_ training course offered by [HIKMA Collective](https://www.hikma.studio/collective) and [CIFAL Victoria](https://www.uvic.ca/about-uvic/cifal/index.php).
+- **[Sep. 2023]** Our paper _RoboAuditor_ has been accepted to BuildSys 2023.
+- **[Aug. 2023]** My first journal paper has been published in Automation in Construction.
+- **[Feb. 2023]** TEA-bot has been featured in [UBC Civil News](https://civil.ubc.ca/professor-zhengbo-zou-leverages-robotics-to-enhance-building-efficiency/)!
+- **[Sep. 2022]** Our paper _TEA-bot_ has been accepted to BuildSys 2022.
+- **[May 2022]** Our paper has been accepted to the IEEE ICRA 2022 Workshop on Future of Construction: Build Faster, Better, Safe – Together with Robotics.
+- **[Sep. 2021]** I was the recipient of the [Faculty of Applied Science Graduate Award (First-year CIV-EX Award)](https://students.ubc.ca/enrolment/finances/award-search/vancouver/faculty-applied-science/general/6434).
 
 {% include_relative _includes/publications.md %}
 

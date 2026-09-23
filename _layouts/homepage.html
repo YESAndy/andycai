@@ -521,6 +521,28 @@
     </script>
     <script>
       (function () {
+        var heading = document.getElementById('news');
+        var list = heading && heading.nextElementSibling;
+        if (!list || list.tagName !== 'UL') return;
+        var items = list.querySelectorAll('li');
+        var SHOW = 6;
+        if (items.length <= SHOW) return;
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'news-toggle';
+        var open = false;
+        function update() {
+          for (var i = SHOW; i < items.length; i++) items[i].classList.toggle('news-hidden', !open);
+          btn.textContent = open ? 'Show less ↑' : 'Show ' + (items.length - SHOW) + ' older ↓';
+          btn.setAttribute('aria-expanded', open);
+        }
+        btn.addEventListener('click', function () { open = !open; update(); });
+        list.parentNode.insertBefore(btn, list.nextSibling);
+        update();
+      })();
+    </script>
+    <script>
+      (function () {
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
         var targets = document.querySelectorAll('section > h2, section > p, section > ul, section > table, section > blockquote, section .publications li');
         var observer = new IntersectionObserver(function (entries) {

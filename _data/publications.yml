@@ -5,7 +5,7 @@ main:
     conference_short: IROS
     conference: '<a href="https://construction-robots.github.io/papers/iros2026_22.pdf">IROS 2026 5th Workshop on Future of Construction: Collaborative Robots for Fabrication, Manufacturing, and Inspection</a> <strong>(IROS)</strong>, 2026.'
     pdf: https://construction-robots.github.io/papers/iros2026_22.pdf
-    page: https://yesandy.github.io/RoboTC/
+    demo: https://yesandy.github.io/RoboTC/
     image: ./assets/img/robotc_poster.jpg
     notes: Poster Presentation
 
